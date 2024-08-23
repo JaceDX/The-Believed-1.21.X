@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "thebelieved:block/wild_lost_covered_grass_bottom",
+    "particle": "minecraft:block/stone",
+    "side": "thebelieved:block/wild_lost_covered_grass_side",
+    "top": "thebelieved:block/wild_lost_covered_grass_top"
+  }
+}

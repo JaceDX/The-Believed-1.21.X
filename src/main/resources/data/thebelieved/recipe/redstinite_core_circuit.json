@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "thebelieved:basic_graystinite_computational_board"
+    },
+    "B": {
+      "item": "thebelieved:redstinite_nugget"
+    },
+    "C": {
+      "item": "thebelieved:extremely_conductive_nugget"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BCB",
+    " A "
+  ],
+  "result": {
+    "count": 2,
+    "id": "thebelieved:redstinite_core_circuit"
+  }
+}

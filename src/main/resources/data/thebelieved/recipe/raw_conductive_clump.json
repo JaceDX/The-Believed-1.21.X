@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "thebelieved:raw_redstinite"
+    },
+    "C": {
+      "item": "minecraft:raw_iron"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ACB",
+    " B "
+  ],
+  "result": {
+    "count": 3,
+    "id": "thebelieved:raw_conductive_clump"
+  }
+}

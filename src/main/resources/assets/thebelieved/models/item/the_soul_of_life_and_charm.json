@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thebelieved:item/the_soul_of_life_and_charm"
+  }
+}

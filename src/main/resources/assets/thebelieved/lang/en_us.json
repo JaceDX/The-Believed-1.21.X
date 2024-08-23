@@ -1,0 +1,31 @@
+{
+  "item.thebelieved.the_soul_of_life_and_charm": "The Soul Of Life and Charm",
+  "item.thebelieved.charming_soul_ingot": "Charming Soul Ingot",
+  "item.thebelieved.raw_charming_soul": "Raw Charming Soul",
+  "item.thebelieved.redstinite_ingot": "Redstinite Ingot",
+  "item.thebelieved.raw_redstinite": "Raw Redstinite",
+  "item.thebelieved.redstinite_nugget": "Redstinite Nugget",
+  "item.thebelieved.redstinite_unbound_key": "Redstinite Unbound Key",
+  "item.thebelieved.redstinite_bound_key": "Redstinite Bound Key",
+  "item.thebelieved.redstinite_unbound_heart": "Redstinite Unbound Heart",
+  "item.thebelieved.redstinite_bound_heart": "Redstinite Bound Heart",
+  "item.thebelieved.graystinite_ingot": "Graystinite Ingot",
+  "item.thebelieved.raw_graystinite": "Raw Graystinite",
+  "item.thebelieved.basic_graystinite_computational_board": "Basic Graystinite Computational Board",
+  "item.thebelieved.redstinite_registering_circuit": "Redstinite Registering Circuit",
+  "item.thebelieved.liquefied_redstinite_bucket": "Bucket Of Liquefied Redstinite",
+  "item.thebelieved.minechoke_cherry": "MineChoke Cherry",
+  "item.thebelieved.graystinite_copying_circuit": "Graystinite Copying Circuit",
+  "item.thebelieved.redstinite_core_circuit": "Redstinite Core Circuit",
+  "item.thebelieved.extremely_conductive_ingot": "Extremely Conductive Ingot",
+  "item.thebelieved.raw_conductive_clump": "Raw Conductive Clump",
+  "item.thebelieved.extremely_conductive_nugget": "Extremely Conductive Nugget",
+  "item.thebelieved.redstinite_plate": "Redstinite Plate",
+
+  "block.thebelieved.wild_lost_stone": "Wild Lost Stone",
+  "block.thebelieved.wild_lost_covered_grass": "Wild Lost Covered Grass",
+  "block.thebelieved.wild_lost_dirt": "Wild Lost Dirt",
+  "block.thebelieved.redstinite_casing": "Redstinite Casing",
+
+  "creativetab.thebelieved.the_believed_tab": "The Believed"
+}

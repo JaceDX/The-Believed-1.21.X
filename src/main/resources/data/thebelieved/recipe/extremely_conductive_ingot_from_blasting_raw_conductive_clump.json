@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 3,
+  "group": "extremely_conductive_group",
+  "ingredient": {
+    "item": "thebelieved:raw_conductive_clump"
+  },
+  "result": {
+    "id": "thebelieved:extremely_conductive_ingot"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "thebelieved:liquefied_redstinite_bucket"
+    },
+    "B": {
+      "item": "thebelieved:raw_redstinite"
+    },
+    "C": {
+      "item": "thebelieved:graystinite_ingot"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    " B "
+  ],
+  "result": {
+    "count": 6,
+    "id": "thebelieved:basic_graystinite_computational_board"
+  }
+}

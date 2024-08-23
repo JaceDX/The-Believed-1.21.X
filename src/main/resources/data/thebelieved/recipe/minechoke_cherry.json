@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "thebelieved:liquefied_redstinite_bucket"
+    },
+    "B": {
+      "item": "thebelieved:graystinite_ingot"
+    },
+    "C": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    " C ",
+    "BAB",
+    " B "
+  ],
+  "result": {
+    "count": 8,
+    "id": "thebelieved:minechoke_cherry"
+  }
+}

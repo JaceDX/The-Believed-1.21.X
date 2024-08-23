@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "thebelieved:raw_graystinite"
+    },
+    "B": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thebelieved:wild_lost_stone"
+  }
+}

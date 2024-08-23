@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "": {
+      "model": "thebelieved:block/redstinite_casing"
+    }
+  },
+  "athena:loader": "athena:giant",
+  "ctm_textures": {
+    "1": "thebelieved:block/ctm/casings/redstinite/0",
+    "2": "thebelieved:block/ctm/casings/redstinite/1",
+    "3": "thebelieved:block/ctm/casings/redstinite/2",
+    "4": "thebelieved:block/ctm/casings/redstinite/3",
+    "particle": "thebelieved:block/casings/redstinite"
+  },
+  "height": 2,
+  "width": 2
+}

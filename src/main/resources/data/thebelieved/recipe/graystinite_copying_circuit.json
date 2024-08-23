@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "thebelieved:redstinite_nugget"
+    },
+    "B": {
+      "item": "thebelieved:redstinite_plate"
+    },
+    "C": {
+      "item": "thebelieved:redstinite_core_circuit"
+    },
+    "D": {
+      "item": "thebelieved:extremely_conductive_ingot"
+    },
+    "E": {
+      "item": "thebelieved:the_soul_of_life_and_charm"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "ECE",
+    " B "
+  ],
+  "result": {
+    "count": 2,
+    "id": "thebelieved:redstinite_copying_circuit"
+  }
+}

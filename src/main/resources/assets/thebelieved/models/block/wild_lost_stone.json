@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+   "textures": {
+     "all": "thebelieved:block/wild_lost_stone"
+  }
+}

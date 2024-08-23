@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:moss_block"
+    },
+    "B": {
+      "item": "thebelieved:wild_lost_dirt"
+    }
+  },
+  "pattern": [
+    " A ",
+    " B ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thebelieved:wild_lost_covered_grass"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2,
+  "group": "extremely_conductive_group",
+  "ingredient": {
+    "item": "thebelieved:raw_conductive_clump"
+  },
+  "result": {
+    "id": "thebelieved:extremely_conductive_ingot"
+  }
+}
