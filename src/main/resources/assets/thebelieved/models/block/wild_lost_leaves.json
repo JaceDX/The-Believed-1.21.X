@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "thebelieved:block/wild_lost_leaves"
+  }
+}

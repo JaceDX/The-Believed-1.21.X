@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 3,
+  "group": "redstinite_group",
+  "ingredient": {
+    "item": "thebelieved:raw_redstinite"
+  },
+  "result": {
+    "id": "thebelieved:redstinite_ingot"
+  }
+}

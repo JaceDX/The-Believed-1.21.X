@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 3,
+  "group": "graystinite_group",
+  "ingredient": {
+    "item": "thebelieved:raw_graystinite"
+  },
+  "result": {
+    "id": "thebelieved:graystinite_ingot"
+  }
+}

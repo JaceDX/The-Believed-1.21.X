@@ -21,11 +21,18 @@
   "item.thebelieved.raw_conductive_clump": "Raw Conductive Clump",
   "item.thebelieved.extremely_conductive_nugget": "Extremely Conductive Nugget",
   "item.thebelieved.redstinite_plate": "Redstinite Plate",
+  "item.thebelieved.extremely_overclocked_circuit": "Extremely Overclocked Circuit",
+  "item.thebelieved.kranknomanium": "Kranknomanium",
+  "item.thebelieved.redstinite_vibrating_core": "Kranknomanium Coloration Chamber (dev test item for kranknomanium)",
 
   "block.thebelieved.wild_lost_stone": "Wild Lost Stone",
   "block.thebelieved.wild_lost_covered_grass": "Wild Lost Covered Grass",
   "block.thebelieved.wild_lost_dirt": "Wild Lost Dirt",
+  "block.thebelieved.wild_lost_log": "Wild Lost Log",
+  "block.thebelieved.wild_lost_leaves": "Wild Lost Leaves",
+
   "block.thebelieved.redstinite_casing": "Redstinite Casing",
+  "block.thebelieved.redstinite_frame": "Redstinite Frame",
 
   "creativetab.thebelieved.the_believed_tab": "The Believed"
 }

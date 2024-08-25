@@ -18,7 +18,7 @@ public class TheBelievedBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TheBelieved.MOD_ID);
 
-
+    // The Believed Dimension
     public static final RegistryObject<Block> WILD_LOST_STONE = registerBlock("wild_lost_stone",
             () -> new Block(BlockBehaviour.Properties.of()
                     .sound(SoundType.STONE).strength(1.5f).requiresCorrectToolForDrops()));
@@ -28,10 +28,29 @@ public class TheBelievedBlocks {
     public static final RegistryObject<Block> WILD_LOST_DIRT = registerBlock("wild_lost_dirt",
             () -> new Block(BlockBehaviour.Properties.of()
                     .sound(SoundType.GRASS).strength(0.5f)));
+    public static final RegistryObject<Block> WILD_LOST_LOG = registerBlock("wild_lost_log",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> WILD_LOST_WOOD = registerBlock("wild_lost_wood",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> STRIPPED_WILD_LOST_LOG = registerBlock("stripped_wild_lost_log",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> STRIPPED_WILD_LOST_WOOD = registerBlock("stripped_wild_lost_wood",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> WILD_LOST_LEAVES = registerBlock("wild_lost_leaves",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .sound(SoundType.AZALEA_LEAVES).strength(0.2f).requiresCorrectToolForDrops()));
 
+    // Metal / Tech
     public static final RegistryObject<Block> REDSTINITE_CASING = registerBlock("redstinite_casing",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .sound(SoundType.METAL).strength(3f)));
+                    .sound(SoundType.METAL).strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> REDSTINITE_FRAME = registerBlock("redstinite_frame",
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()
+                    .sound(SoundType.METAL).strength(3f).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

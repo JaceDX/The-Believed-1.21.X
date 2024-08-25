@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:black_dye"
+    },
+    "B": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "   ",
+    " AB",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "thebelieved:redstinite_vibrating_core"
+  }
+}

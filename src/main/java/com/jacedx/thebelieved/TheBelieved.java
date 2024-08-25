@@ -5,6 +5,8 @@ import com.jacedx.thebelieved.item.TheBelievedCreativeModTabs;
 import com.jacedx.thebelieved.item.TheBelievedItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -71,16 +73,13 @@ public class TheBelieved {
             event.accept(TheBelievedItems.REDSTINITE_BOUND_HEART);
             event.accept(TheBelievedItems.GRAYSTINITE_INGOT);
             event.accept(TheBelievedItems.RAW_GRAYSTINITE);
-            event.accept(TheBelievedItems.BASIC_GRAYSTINITE_COMPUTATIONAL_BOARD);
-            event.accept(TheBelievedItems.REDSTINITE_REGISTERING_CIRCUIT);
             event.accept(TheBelievedItems.LIQUEFIED_REDSTINITE_BUCKET);
-            event.accept(TheBelievedItems.GRAYSTINITE_COPYING_CIRCUIT);
             event.accept(TheBelievedItems.REDSTINITE_CORE_CIRCUIT);
             event.accept(TheBelievedItems.EXTREMELY_CONDUCTIVE_INGOT);
             event.accept(TheBelievedItems.RAW_CONDUCTIVE_CLUMP);
             event.accept(TheBelievedItems.EXTREMELY_CONDUCTIVE_NUGGET);
-            event.accept(TheBelievedItems.GRAYSTINITE_COPYING_CIRCUIT);
             event.accept(TheBelievedItems.REDSTINITE_PLATE);
+            event.accept(TheBelievedItems.KRANKNOMANIUM);
 
         }
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
@@ -91,11 +90,14 @@ public class TheBelieved {
         event.accept(TheBelievedBlocks.WILD_LOST_COVERED_GRASS);
         event.accept(TheBelievedBlocks.WILD_LOST_DIRT);
         event.accept(TheBelievedBlocks.REDSTINITE_CASING);
+        event.accept(TheBelievedBlocks.REDSTINITE_FRAME);
             }
         if (event.getTabKey() == TheBelievedCreativeModTabs.THE_BELIEVED_TAB.getKey()) {
             event.accept(TheBelievedBlocks.WILD_LOST_STONE);
             event.accept(TheBelievedBlocks.WILD_LOST_COVERED_GRASS);
             event.accept(TheBelievedBlocks.WILD_LOST_DIRT);
+            event.accept(TheBelievedBlocks.WILD_LOST_LOG);
+            event.accept(TheBelievedBlocks.WILD_LOST_LEAVES);
             event.accept(TheBelievedItems.THE_SOUL_OF_LIFE_AND_CHARM);
             event.accept(TheBelievedItems.CHARMING_SOUL_INGOT);
             event.accept(TheBelievedItems.RAW_CHARMING_SOUL);
@@ -103,6 +105,7 @@ public class TheBelieved {
             event.accept(TheBelievedItems.RAW_REDSTINITE);
             event.accept(TheBelievedItems.REDSTINITE_NUGGET);
             event.accept(TheBelievedBlocks.REDSTINITE_CASING);
+            event.accept(TheBelievedBlocks.REDSTINITE_FRAME);
             event.accept(TheBelievedItems.REDSTINITE_UNBOUND_KEY);
             event.accept(TheBelievedItems.REDSTINITE_BOUND_KEY);
             event.accept(TheBelievedItems.REDSTINITE_UNBOUND_HEART);
@@ -114,19 +117,29 @@ public class TheBelieved {
             event.accept(TheBelievedItems.REDSTINITE_CORE_CIRCUIT);
             event.accept(TheBelievedItems.REDSTINITE_REGISTERING_CIRCUIT);
             event.accept(TheBelievedItems.GRAYSTINITE_COPYING_CIRCUIT);
+            event.accept(TheBelievedItems.EXTREMELY_OVERCLOCKED_CIRCUIT);
             event.accept(TheBelievedItems.LIQUEFIED_REDSTINITE_BUCKET);
             event.accept(TheBelievedItems.EXTREMELY_CONDUCTIVE_INGOT);
             event.accept(TheBelievedItems.RAW_CONDUCTIVE_CLUMP);
             event.accept(TheBelievedItems.EXTREMELY_CONDUCTIVE_NUGGET);
+            event.accept(TheBelievedItems.KRANKNOMANIUM);
             event.accept(TheBelievedItems.MINECHOKE_CHERRY);
-            }
         }
+            if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+                event.accept(TheBelievedBlocks.WILD_LOST_STONE);
+                event.accept(TheBelievedBlocks.WILD_LOST_COVERED_GRASS);
+                event.accept(TheBelievedBlocks.WILD_LOST_DIRT);
+                event.accept(TheBelievedBlocks.WILD_LOST_LOG);
+                event.accept(TheBelievedBlocks.WILD_LOST_LEAVES);
+                }
+            }
+
 
 
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-        LOGGER.info("YEP, THE SERVER STARTED, CONGRATS.");
+    //    LOGGER.info("YEP, THE SERVER STARTED, CONGRATS.");
     }
 
 
@@ -134,9 +147,9 @@ public class TheBelieved {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
-            LOGGER.info("CLIENT STARTED, CONGRATS");
-            LOGGER.info("WOAH IS THAT YOUR MINECRAFT NAME? >> {}", Minecraft.getInstance().getUser().getName());
+            ItemBlockRenderTypes.setRenderLayer(TheBelievedBlocks.REDSTINITE_FRAME.get(), RenderType.translucent());
+        //     LOGGER.info("CLIENT STARTED, CONGRATS");
+          //  LOGGER.info("WOAH IS THAT YOUR MINECRAFT NAME? >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
 }

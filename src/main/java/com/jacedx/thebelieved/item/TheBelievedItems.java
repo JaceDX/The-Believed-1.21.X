@@ -44,7 +44,7 @@ public class TheBelievedItems {
     public static final RegistryObject<Item> LIQUEFIED_REDSTINITE_BUCKET = ITEMS.register("liquefied_redstinite_bucket",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MINECHOKE_CHERRY = ITEMS.register("minechoke_cherry",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(TheBelievedFoods.MINECHOKE_CHERRY)));
     public static final RegistryObject<Item> GRAYSTINITE_COPYING_CIRCUIT = ITEMS.register("graystinite_copying_circuit",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REDSTINITE_CORE_CIRCUIT = ITEMS.register("redstinite_core_circuit",
@@ -56,6 +56,12 @@ public class TheBelievedItems {
     public static final RegistryObject<Item> EXTREMELY_CONDUCTIVE_NUGGET = ITEMS.register("extremely_conductive_nugget",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REDSTINITE_PLATE = ITEMS.register("redstinite_plate",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REDSTINITE_VIBRATING_CORE = ITEMS.register("redstinite_vibrating_core",
+            () -> new Item(new Item.Properties())); // DEV TEST ITEM USED FOR KRANKNOMANIUM
+    public static final RegistryObject<Item> EXTREMELY_OVERCLOCKED_CIRCUIT = ITEMS.register("extremely_overclocked_circuit",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> KRANKNOMANIUM = ITEMS.register("kranknomanium",
             () -> new Item(new Item.Properties()));
 
 

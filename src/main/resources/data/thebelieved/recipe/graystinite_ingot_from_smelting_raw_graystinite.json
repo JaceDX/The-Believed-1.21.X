@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2,
+  "group": "redstinite_group",
+  "ingredient": {
+    "item": "thebelieved:raw_graystinite"
+  },
+  "result": {
+    "id": "thebelieved:graystinite_ingot"
+  }
+}

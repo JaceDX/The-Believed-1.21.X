@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "thebelieved:redstinite_nugget"
+    },
+    "B": {
+      "item": "thebelieved:redstinite_ingot"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "A A",
+    "BAB"
+  ],
+  "result": {
+    "count": 4,
+    "id": "thebelieved:redstinite_frame"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "thebelieved:block/wild_lost_log_top",
+    "side": "thebelieved:block/wild_lost_log"
+  }
+}
