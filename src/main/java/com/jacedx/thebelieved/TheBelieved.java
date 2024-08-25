@@ -90,7 +90,6 @@ public class TheBelieved {
         event.accept(TheBelievedBlocks.WILD_LOST_COVERED_GRASS);
         event.accept(TheBelievedBlocks.WILD_LOST_DIRT);
         event.accept(TheBelievedBlocks.REDSTINITE_CASING);
-        event.accept(TheBelievedBlocks.REDSTINITE_FRAME);
             }
         if (event.getTabKey() == TheBelievedCreativeModTabs.THE_BELIEVED_TAB.getKey()) {
             event.accept(TheBelievedBlocks.WILD_LOST_STONE);
@@ -105,7 +104,6 @@ public class TheBelieved {
             event.accept(TheBelievedItems.RAW_REDSTINITE);
             event.accept(TheBelievedItems.REDSTINITE_NUGGET);
             event.accept(TheBelievedBlocks.REDSTINITE_CASING);
-            event.accept(TheBelievedBlocks.REDSTINITE_FRAME);
             event.accept(TheBelievedItems.REDSTINITE_UNBOUND_KEY);
             event.accept(TheBelievedItems.REDSTINITE_BOUND_KEY);
             event.accept(TheBelievedItems.REDSTINITE_UNBOUND_HEART);
@@ -147,8 +145,7 @@ public class TheBelieved {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            ItemBlockRenderTypes.setRenderLayer(TheBelievedBlocks.REDSTINITE_FRAME.get(), RenderType.translucent());
-        //     LOGGER.info("CLIENT STARTED, CONGRATS");
+          //     LOGGER.info("CLIENT STARTED, CONGRATS");
           //  LOGGER.info("WOAH IS THAT YOUR MINECRAFT NAME? >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
